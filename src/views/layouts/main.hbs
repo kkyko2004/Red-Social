@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Social</title>
+    <!--Font Awesome--->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.5.0/css/all.min.css">
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
+    <!--CSS--->
+   <link rel="stylesheet" href="/public/css/styles.css">
+</head>
+<body>
+   <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <a href="/" class="navbar-brand">
+            <img src="/public/img/STYLISH SCREEN (1).png" alt="imgShare" style="width: 150px;">
+        </a>
+        <h2 class="navbar-text ml-auto">Bienvenido a comentar y publicar</h2>
+    </div>
+</nav>
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-md-8">
+                 {{{body}}}
+            </div>
+            <div class="col-md-4">
+                 {{> stats}}
+                 {{> popular}}
+                 {{> comments}}
+           </div>
+        </div>
+    </div>
+    <!--SCRIPTS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="/public/js/scripts.js"></script>
+</body>
+
+</html>

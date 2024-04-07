@@ -1,0 +1,18 @@
+body{
+    background-color: #dcdde1;
+}
+
+.navbar-brand img {
+    width: 60%;
+}
+
+.navbar-text {
+    color: white; 
+  }
+  
+ 
+  .navbar-text::before {
+    content: "☁️"; /* Emoji de nube */
+    display: inline-block; /* Asegura que el emoji esté en línea con el texto */
+    margin-right: 0.5em; /* Agrega un espacio entre la nube y el texto */
+  }
