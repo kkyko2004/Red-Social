@@ -11,8 +11,8 @@ body{
   }
   
  
-  .navbar-text::before {
-    content: "☁️"; /* Emoji de nube */
-    display: inline-block; /* Asegura que el emoji esté en línea con el texto */
-    margin-right: 0.5em; /* Agrega un espacio entre la nube y el texto */
-  }
+ .navbar-text::before {
+  content: "☁️"; /* Emoji de nube */
+  display: inline-block; /* Asegura que el emoji esté en línea con el texto */
+  margin-right: 0.5em; /* Agrega un espacio entre la nube y el texto */
+}
